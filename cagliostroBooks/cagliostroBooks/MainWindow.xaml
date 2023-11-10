@@ -1,0 +1,13 @@
+﻿<Window x:Class="cagliostroBooks.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:cagliostroBooks"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1160" Width="750">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="411" Margin="168,227,0,0" VerticalAlignment="Top" Width="520" Source="/Screenshot (117).png"/>
+
+    </Grid>
+</Window>
