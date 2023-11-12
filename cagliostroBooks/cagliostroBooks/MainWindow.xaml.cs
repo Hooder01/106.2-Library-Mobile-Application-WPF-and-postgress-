@@ -22,6 +22,8 @@ namespace cagliostroBooks
     {
         public MainWindow()
         {
+
+
             InitializeComponent();
         }
     }

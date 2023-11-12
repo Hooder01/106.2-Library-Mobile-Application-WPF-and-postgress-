@@ -5,9 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:cagliostroBooks"
         mc:Ignorable="d"
-        Title="MainWindow" Height="1160" Width="750">
+        Title="Login(user)" Height="1160" Width="750">
     <Grid>
-        <Image HorizontalAlignment="Left" Height="411" Margin="168,227,0,0" VerticalAlignment="Top" Width="520" Source="/Screenshot (117).png"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="563*"/>
+            <RowDefinition Height="567*"/>
+        </Grid.RowDefinitions>
+        <Image x:Name="Logo" HorizontalAlignment="Left" Height="411" Margin="168,161,0,0" VerticalAlignment="Top" Width="520" Source="/Screenshot (117).png" Grid.RowSpan="2"/>
+        <TextBlock HorizontalAlignment="Center" Margin="301,8.674,301,0" TextWrapping="Wrap" Text="LOGIN" VerticalAlignment="Top" Height="60" Width="142" FontSize="48" FontFamily="Ebrima" Grid.Row="1"/>
+        <TextBox x:Name="UserID_input" HorizontalAlignment="Left" Height="24" Margin="247,110.674,0,0" TextWrapping="Wrap" Text="UserID" VerticalAlignment="Top" Width="243" UndoLimit="50" FontSize="18" Opacity="0.4" Background="#FFA8A8A8" Grid.Row="1"/>
+        <PasswordBox x:Name="UserPass" HorizontalAlignment="Left" Margin="247,187.674,0,0" VerticalAlignment="Top" Width="243" Height="24" Background="#FFBCBCBC" Opacity="0.4" Grid.Row="1"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="415,275.8,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Background="#FF32C8FF" FontSize="14"/>
+
+
 
     </Grid>
 </Window>
