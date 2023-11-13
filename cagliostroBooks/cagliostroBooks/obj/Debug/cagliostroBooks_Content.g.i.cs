@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("screenshot%20(117).png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("untitled%20%e2%80%93%20figma%20-%20google%20chrome%2013_11_2023%2010_45_25%20pm.p" +
+    "ng")]
 
 
