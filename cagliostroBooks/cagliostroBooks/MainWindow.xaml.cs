@@ -21,15 +21,15 @@ namespace cagliostroBooks
     public partial class MainWindow : Window
     {
 
-        private void FirstButton_Click(object sender, RoutedEventArgs e)
+        private void LoginToHome_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("clicked!");
-        } //Button to send user to home page after logging in
+            MessageBox.Show("Testing Testing 1 2 3");
+        }
 
-        private void AdminButton_Click(object sender, RoutedEventArgs e)
+        private void ToAdminLogin_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("clicked!");
-        }// button to send user to admin login page
+            MessageBox.Show("Testing Testing 1 2 3");
+        }
 
         public MainWindow()
         {

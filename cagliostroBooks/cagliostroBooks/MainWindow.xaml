@@ -8,12 +8,14 @@
         Title="Login(user)" Height="1160" Width="750">
 
     <Grid RenderTransformOrigin="0.85,0.969">
-        <TextBlock HorizontalAlignment="Center" Margin="296,411,287,0" TextWrapping="Wrap" Text="LOGIN" VerticalAlignment="Top" Height="60" Width="161" FontSize="48" FontFamily="Courier New"/>
-        <TextBox x:Name="UserID_input" HorizontalAlignment="Left" Height="24" Margin="247,522,0,0" TextWrapping="Wrap" Text="UserID" VerticalAlignment="Top" Width="243" UndoLimit="50" FontSize="18" Opacity="0.4" Background="#FFA8A8A8"/>
-        <PasswordBox x:Name="UserPass" HorizontalAlignment="Left" Margin="247,584,0,0" VerticalAlignment="Top" Width="243" Height="24" Background="#FFB4B4B4" Opacity="0.4"/>
-        <Button Content="Login" HorizontalAlignment="Left" Margin="382,631,0,0" VerticalAlignment="Top" Width="75" Background="#FF32C8FF" FontSize="14" RenderTransformOrigin="0.667,-5.926" Click="FirstButton_Click"/>
-        <Image HorizontalAlignment="Left" Height="376" Margin="170,10,0,0" VerticalAlignment="Top" Width="405" Source="Untitled – Figma - Google Chrome 13_11_2023 10_45_25 pm.png"/>
-        <Button Content="ADMIN" HorizontalAlignment="Left" Margin="280,631,0,0" VerticalAlignment="Top" Width="75" Background="Red" FontSize="14" RenderTransformOrigin="0.667,-5.926" Click="AdminButton_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="312,479,0,0" TextWrapping="Wrap" Text="LOGIN" VerticalAlignment="Top" Height="59" Width="162" FontSize="48" FontFamily="Calibri Light" RenderTransformOrigin="1.25,0.317"/>
+        <TextBox x:Name="UserID_input" HorizontalAlignment="Left" Height="24" Margin="247,572,0,0" TextWrapping="Wrap" Text="UserID" VerticalAlignment="Top" Width="243" UndoLimit="50" FontSize="18" Opacity="0.4" Background="#FFA8A8A8"/>
+        <PasswordBox x:Name="UserPass" HorizontalAlignment="Left" Margin="247,622,0,0" VerticalAlignment="Top" Width="243" Height="24" Background="#FFB4B4B4" Opacity="0.4"/>
+        <Image HorizontalAlignment="Left" Height="102" Margin="362,674,0,0" VerticalAlignment="Top" Width="226" Source="/LOGIN.png"/>
+        <Image HorizontalAlignment="Left" Height="102" Margin="154,676,0,0" VerticalAlignment="Top" Width="226" Source="/LOGIN1.png"/>
+        <Image HorizontalAlignment="Left" Height="391" Margin="178,40,0,0" VerticalAlignment="Top" Width="473" Source="/Screenshot (117).png"/>
+        <Button Content="LoginUser" HorizontalAlignment="Left" Margin="385,683,0,0" VerticalAlignment="Top" Height="40" Width="177" Click="LoginToHome_Click" Opacity="0"/>
+        <Button Content="LoginAdmin" HorizontalAlignment="Left" Margin="178,683,0,0" VerticalAlignment="Top" Height="40" Width="179" Opacity="0" Click="ToAdminLogin_Click"/>
 
     </Grid>
 </Window>

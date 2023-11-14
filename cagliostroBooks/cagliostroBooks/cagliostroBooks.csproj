@@ -98,16 +98,19 @@
     <Resource Include="2830561.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Screenshot %28117%29.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="71TSevaQb8L.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="_83c251bf-d7a6-4541-b21e-c03e686a5707.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Untitled – Figma - Google Chrome 13_11_2023 10_45_25 pm.png" />
+    <Resource Include="LOGIN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="LOGIN1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Screenshot %28117%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
