@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.4.33213.308
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cagliostroBooks", "cagliostroBooks\cagliostroBooks.csproj", "{40A66C05-10AD-4BD2-9245-5F4AAB936326}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cagliostroBooks", "cagliostroBooks\cagliostroBooks.csproj", "{CBF27560-FB8C-4F0D-AAC2-994E5B769898}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{40A66C05-10AD-4BD2-9245-5F4AAB936326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40A66C05-10AD-4BD2-9245-5F4AAB936326}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40A66C05-10AD-4BD2-9245-5F4AAB936326}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40A66C05-10AD-4BD2-9245-5F4AAB936326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF27560-FB8C-4F0D-AAC2-994E5B769898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF27560-FB8C-4F0D-AAC2-994E5B769898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF27560-FB8C-4F0D-AAC2-994E5B769898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF27560-FB8C-4F0D-AAC2-994E5B769898}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {B79D014E-118B-4CCC-B074-BD93C9C636E8}
+		SolutionGuid = {1384609C-4E38-4373-AE45-D1DFC80E7085}
 	EndGlobalSection
 EndGlobal

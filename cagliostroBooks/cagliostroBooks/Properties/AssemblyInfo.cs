@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("cagliostroBooks")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("UP Education")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("cagliostroBooks")]
-[assembly: AssemblyCopyright("Copyright © UP Education 2023")]
+[assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
