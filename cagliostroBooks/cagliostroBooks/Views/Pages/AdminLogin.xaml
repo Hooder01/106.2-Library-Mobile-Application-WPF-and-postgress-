@@ -1,0 +1,19 @@
+﻿<Page x:Class="cagliostroBooks.Views.Pages.AdminLogin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:cagliostroBooks.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="798" d:DesignWidth="480"
+      Title="AdminLogin">
+
+    <Grid Background="White">
+        <Image HorizontalAlignment="Left" Height="354" Margin="65,83,0,0" VerticalAlignment="Top" Width="354" Source="/Views/Pages/ADMIN LOGIN.png"/>
+        <Label Content="ADMIN LOGIN" HorizontalAlignment="Center" Margin="0,439,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Calibri Light"/>
+        <Rectangle HorizontalAlignment="Center" Height="206" Margin="0,439,0,0" Stroke="Black" VerticalAlignment="Top" Width="320" OpacityMask="White" Fill="#FF909090" Opacity="0.2"/>
+        <TextBlock HorizontalAlignment="Left" Height="32" Margin="106,527,0,0" TextWrapping="Wrap" Text="ADMIN ID" VerticalAlignment="Top" Width="272" Background="White" FontSize="22" FontStyle="Italic" Opacity="0.8"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="106,608,0,0" VerticalAlignment="Top" Width="272" Height="32" Opacity="0.8"/>
+        <Image HorizontalAlignment="Center" Height="40" Margin="0,645,0,0" VerticalAlignment="Top" Width="172" Source="/Views/Pages/LOGIN - Copy.png"/>
+    </Grid>
+</Page>

@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Views\Pages\AdminLogin.xaml.cs">
+      <DependentUpon>AdminLogin.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Pages\UserLogin.xaml.cs">
       <DependentUpon>UserLogin.xaml</DependentUpon>
     </Compile>
@@ -70,6 +73,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\Pages\AdminLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Pages\UserLogin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -113,7 +120,16 @@
     <Resource Include="Views\Pages\LOGIN.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Views\Pages\LOGINadmin.png" />
+    <Resource Include="Views\Pages\LOGIN1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\Pages\imageedit_1_3951371623.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\Pages\ADMIN LOGIN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Views\Pages\LOGIN - Copy.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

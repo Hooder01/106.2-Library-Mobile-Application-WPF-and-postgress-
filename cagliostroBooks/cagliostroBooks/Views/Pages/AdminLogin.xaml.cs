@@ -16,22 +16,11 @@ using System.Windows.Shapes;
 namespace cagliostroBooks.Views.Pages
 {
     /// <summary>
-    /// Interaction logic for UserLogin.xaml
+    /// Interaction logic for AdminLogin.xaml
     /// </summary>
-    public partial class UserLogin : Page
+    public partial class AdminLogin : Page
     {
-
-        private void ToAdminLoginPage_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Testing Testing 1 2 3!");
-        }
-
-        private void ToUserHomePage_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Testing Testing 1 2 3!");
-        }
-
-        public UserLogin()
+        public AdminLogin()
         {
             InitializeComponent();
         }
