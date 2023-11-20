@@ -2,7 +2,7 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:cagliostroBooks"
-             StartupUri="Views\Pages\AdminLogin.xaml">
+             StartupUri="Views\Pages\UserLogin.xaml">
     
 
     <Application.Resources>

@@ -58,6 +58,9 @@
     <Compile Include="Views\Pages\AdminLogin.xaml.cs">
       <DependentUpon>AdminLogin.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Pages\UserHomePage.xaml.cs">
+      <DependentUpon>UserHomePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Pages\UserLogin.xaml.cs">
       <DependentUpon>UserLogin.xaml</DependentUpon>
     </Compile>
@@ -74,6 +77,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\Pages\AdminLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\UserHomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -109,15 +116,17 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="DataAccess\" />
     <Folder Include="Models\" />
-    <Folder Include="Resources\" />
     <Folder Include="ViewModels\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Views\Pages\Untitled – Figma - Google Chrome 13_11_2023 10_45_25 pm.png" />
+    <Content Include="Resources\Logo.png" />
+    <Resource Include="Views\Pages\LOGIN.png" />
+    <Resource Include="Views\Pages\Logo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Views\Pages\LOGIN.png" />
+    <Resource Include="Resources\LOGIN.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Views\Pages\LOGIN1.png" />

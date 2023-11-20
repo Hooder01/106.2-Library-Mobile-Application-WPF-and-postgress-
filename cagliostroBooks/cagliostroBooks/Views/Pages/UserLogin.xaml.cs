@@ -23,12 +23,16 @@ namespace cagliostroBooks.Views.Pages
 
         private void ToAdminLoginPage_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Testing Testing 1 2 3!");
+            Button b = (Button)sender;
+            NavigationService.Navigate(new Uri(@"Views\Pages\AdminLogin.xaml", UriKind.Relative));
         }
+
+
 
         private void ToUserHomePage_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Testing Testing 1 2 3!");
+            Button b = (Button)sender;
+            NavigationService.Navigate(new Uri(@"Views\Pages\UserHomePage.xaml", UriKind.Relative));
         }
 
         public UserLogin()

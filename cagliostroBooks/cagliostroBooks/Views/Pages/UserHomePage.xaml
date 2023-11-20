@@ -1,0 +1,19 @@
+﻿<Page x:Class="cagliostroBooks.Views.Pages.UserHomePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:cagliostroBooks.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="798" d:DesignWidth="480"
+      Title="UserHomePage" WindowHeight="798" WindowWidth="480">
+
+    <Grid Background="White">
+        <Image HorizontalAlignment="Left" Height="119" VerticalAlignment="Top" Width="108" Source="/Resources/Logo.png"/>
+        <Rectangle HorizontalAlignment="Center" Height="119" Margin="0,164,0,0" VerticalAlignment="Top" Width="480" Fill="#FFB3B3B3" Opacity="0.5"/>
+        <Rectangle HorizontalAlignment="Center" Height="118" VerticalAlignment="Center" Width="480" Fill="#FFB3B3B3" Opacity="0.5"/>
+        <Rectangle HorizontalAlignment="Center" Height="118" Margin="0,508,0,0" VerticalAlignment="Top" Width="480" Fill="#FFB3B3B3" Opacity="0.5"/>
+        <Ellipse HorizontalAlignment="Center" Height="108" Margin="0,680,0,0" VerticalAlignment="Top" Width="544" Fill="#FF49C4F9"/>
+
+    </Grid>
+</Page>
