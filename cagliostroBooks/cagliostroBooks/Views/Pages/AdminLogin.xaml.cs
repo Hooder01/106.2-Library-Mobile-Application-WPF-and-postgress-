@@ -15,11 +15,17 @@ using System.Windows.Shapes;
 
 namespace cagliostroBooks.Views.Pages
 {
-    /// <summary>
-    /// Interaction logic for AdminLogin.xaml
-    /// </summary>
+    
     public partial class AdminLogin : Page
     {
+
+        private void ToAdminHomePage_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Testing Testing 1 2 3!");
+        }
+
+
+
         public AdminLogin()
         {
             InitializeComponent();

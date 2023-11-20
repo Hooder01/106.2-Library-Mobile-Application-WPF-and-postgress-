@@ -123,13 +123,10 @@
     <Resource Include="Views\Pages\LOGIN1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Views\Pages\imageedit_1_3951371623.png" />
+    <Resource Include="Views\Pages\LOGIN - Copy.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Views\Pages\ADMIN LOGIN.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Views\Pages\LOGIN - Copy.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

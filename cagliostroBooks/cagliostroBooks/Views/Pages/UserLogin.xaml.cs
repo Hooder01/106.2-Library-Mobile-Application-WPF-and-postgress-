@@ -34,6 +34,7 @@ namespace cagliostroBooks.Views.Pages
         public UserLogin()
         {
             InitializeComponent();
+
         }
     }
 }
