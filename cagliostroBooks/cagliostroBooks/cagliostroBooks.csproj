@@ -64,6 +64,9 @@
     <Compile Include="Views\Pages\UserLogin.xaml.cs">
       <DependentUpon>UserLogin.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Pages\UserSettings.xaml.cs">
+      <DependentUpon>UserSettings.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -85,6 +88,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Pages\UserLogin.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\UserSettings.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -122,6 +129,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Logo.png" />
+    <Resource Include="Views\Pages\b3.jpg" />
+    <Resource Include="Views\Pages\b2.jpg" />
+    <Resource Include="Views\Pages\b1.jpg" />
+    <Resource Include="Views\Pages\Settings-L-icon.png" />
     <Resource Include="Views\Pages\LOGIN.png" />
     <Resource Include="Views\Pages\Logo.png" />
   </ItemGroup>
