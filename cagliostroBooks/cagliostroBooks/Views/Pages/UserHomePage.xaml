@@ -9,26 +9,29 @@
       Title="UserHomePage" WindowHeight="798" WindowWidth="480">
 
     <Grid Background="White">
-        <Image HorizontalAlignment="Left" Height="119" VerticalAlignment="Top" Width="108" Source="/Views/Pages/Logo.png"/>
-        <Rectangle HorizontalAlignment="Center" Height="119" Margin="0,164,0,0" VerticalAlignment="Top" Width="480" Fill="#FFB3B3B3" Opacity="0.5"/>
-        <Rectangle HorizontalAlignment="Center" Height="118" VerticalAlignment="Top" Width="480" Fill="#FFB3B3B3" Opacity="0.5" Margin="0,334,0,0"/>
-        <Rectangle HorizontalAlignment="Center" Height="118" Margin="0,508,0,0" VerticalAlignment="Top" Width="480" Fill="#FFB3B3B3" Opacity="0.5"/>
-        <Ellipse HorizontalAlignment="Center" Height="108" Margin="0,657,0,0" VerticalAlignment="Top" Width="544" Fill="#FF49C4F9"/>
-        <Image HorizontalAlignment="Left" Height="54" Margin="379,643,0,0" VerticalAlignment="Top" Width="62" Source="/Views/Pages/Settings-L-icon.png" RenderTransformOrigin="0.471,-0.237"/>
-        <Button Content="ToSettings" HorizontalAlignment="Left" Height="60" Margin="373,640,0,0" VerticalAlignment="Top" Width="66" Click="ToSettingsPage_Click" Opacity="0"/>
 
-        <Image HorizontalAlignment="Left" Height="105" Margin="54,171,0,0" VerticalAlignment="Top" Width="99" Source="/Views/Pages/b1.jpg"/>
-        <Image HorizontalAlignment="Left" Height="105" Margin="208,171,0,0" VerticalAlignment="Top" Width="99" Source="/Views/Pages/b2.jpg"/>
-        <Image HorizontalAlignment="Left" Height="105" Margin="370,171,0,0" VerticalAlignment="Top" Width="99" Source="/Views/Pages/b3.jpg"/>
-        <!--Books images that will be held in a container for user selection-->
-        
-        <Ellipse HorizontalAlignment="Left" Height="26" Margin="45,164,0,0" VerticalAlignment="Top" Width="26" Fill="#FF64FD00" RenderTransformOrigin="0.556,0.538"/>
-        <Ellipse HorizontalAlignment="Left" Height="26" Margin="199,164,0,0" VerticalAlignment="Top" Width="26" Fill="#FF64FD00" RenderTransformOrigin="0.556,0.538"/>
-        <Ellipse HorizontalAlignment="Left" Height="26" Margin="360,164,0,0" VerticalAlignment="Top" Width="26" Fill="#FFFD0000" RenderTransformOrigin="0.556,0.538"/>
-        <Button Content="Book1info" HorizontalAlignment="Left" Height="27" Margin="45,164,0,0" VerticalAlignment="Top" Width="26" Click="Book01Info_Click" Opacity="0"/>
-        <Button Content="Book2info" HorizontalAlignment="Left" Height="27" Margin="199,164,0,0" VerticalAlignment="Top" Width="26" Click="Book02Info_Click" Opacity="0"/>
-        <Button Content="Book3info" HorizontalAlignment="Left" Height="27" Margin="360,164,0,0" VerticalAlignment="Top" Width="26" Click="Book03Info_Click" Opacity="0"/>
-        <!--dots can be clicked for both information and availability -->
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+
+        </Grid.RowDefinitions>
+        <!-- _Header_ -->
+
+
+        <Grid
+            Grid.Row="0">
+            <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Center" Width="100" Source="/Views/Pages/Logo.png" Margin="0,-6,0,0"/>
+
+        </Grid>
+
+
+        <!-- _Body_ -->
+
+
+
+
 
     </Grid>
 </Page>
