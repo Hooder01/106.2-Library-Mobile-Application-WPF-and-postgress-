@@ -8,7 +8,15 @@
       d:DesignHeight="798" d:DesignWidth="480"
       Title="UserHomePage" WindowHeight="798" WindowWidth="480">
 
+
+    <Page.Resources>
+
+        <Style TargetType ="ScrollBar"></Style>
+
+    </Page.Resources>
+
     <Grid Background="White">
+
 
         <Grid.RowDefinitions>
 
@@ -17,7 +25,6 @@
             <RowDefinition Height="100"/>
 
         </Grid.RowDefinitions>
-        <!-- _Header_ -->
 
 
         <Grid
@@ -25,13 +32,67 @@
             <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Center" Width="100" Source="/Views/Pages/Logo.png" Margin="0,-6,0,0"/>
 
         </Grid>
+        <!-- _Header_ -->
 
 
+        <Grid
+            Grid.Row="1"
+            Background="LightGray">
+            <!-- (NOTE) Darker? -->
+
+        </Grid>
         <!-- _Body_ -->
 
 
+        <Grid
+            Grid.Row="2">
+            <Ellipse HorizontalAlignment="Center" Height="199" Margin="0,22,0,0" VerticalAlignment="Top" Width="506" Fill="#FF61BEF9"/>
+            <Image HorizontalAlignment="Left" Height="56" Margin="398,0,0,0" VerticalAlignment="Center" Width="69" Source="/Views/Pages/Settings-L-icon.png" RenderTransformOrigin="-0.569,0.801"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="398,0,0,0" VerticalAlignment="Center" Height="56" Width="56" Click="ToSettingsPage_Click" Opacity="0"/>
+
+        </Grid>
+        <!-- _Footer_ -->
 
 
+
+        <ScrollViewer Grid.Row="1">
+
+            <Grid RenderTransformOrigin="0.521,0.508">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="160"/>
+                    <ColumnDefinition Width="50"/>
+                    <!-- (NOTE) fancy scroll bar? -->
+
+                </Grid.ColumnDefinitions>
+                <!-- _Grid column size for books_-->
+
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="198"/>
+                    <RowDefinition Height="198"/>
+                    <RowDefinition Height="198"/>
+                    <RowDefinition Height="198"/>
+                    <RowDefinition Height="198"/>
+                    <RowDefinition Height="198"/>
+                    <RowDefinition Height="198"/>
+                    <RowDefinition Height="198"/>
+
+                </Grid.RowDefinitions>
+                <!-- _Grid row size for books_-->
+
+
+            </Grid>
+
+        </ScrollViewer>
+        <!-- Scoll veiw for (Grid.Row"1") aka _Body_-->
 
     </Grid>
+
+
+
+
 </Page>
+
