@@ -1,0 +1,20 @@
+﻿<Page x:Class="cagliostroBooks.Views.Pages.AdminLogin"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:cagliostroBooks.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="798" d:DesignWidth="480"
+      Title="AdminLogin" WindowHeight="798" WindowWidth="478">
+
+    <Grid Background="White">
+        <Image HorizontalAlignment="Left" Height="342" Margin="69,87,0,0" VerticalAlignment="Top" Width="350" Source="/Views/Pages/ADMIN LOGIN.png"/>
+        <Rectangle HorizontalAlignment="Center" Height="267" Margin="0,403,0,0" VerticalAlignment="Top" Width="320" Fill="#FFCCCCCC" Opacity="0.2"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,482,0,0" TextWrapping="Wrap" Text="ADMIN ID" VerticalAlignment="Top" Background="#FFCECECE" Height="32" Width="262" FontSize="22" FontStyle="Italic" Opacity="0.5"/>
+        <PasswordBox HorizontalAlignment="Center" Margin="0,556,0,0" VerticalAlignment="Top" Height="34" Width="262" Background="#FFCDCDCD" Opacity="0.5"/>
+        <Image HorizontalAlignment="Center" Height="77" Margin="0,623,0,0" VerticalAlignment="Top" Width="216" Source="/Views/Pages/LOGIN.png"/>
+        <Button Content="AdminLoginToHome" HorizontalAlignment="Center" Height="47" Margin="0,623,0,0" VerticalAlignment="Top" Width="216" Click="ToAdminHomePage_Click" Opacity="0"/>
+
+    </Grid>
+</Page>
