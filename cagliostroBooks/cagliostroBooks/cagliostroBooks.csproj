@@ -129,6 +129,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Logo.png" />
+    <Resource Include="Views\Pages\b3.jpg" />
+    <Resource Include="Views\Pages\b2.jpg" />
+    <Resource Include="Views\Pages\b1.jpg" />
     <Resource Include="Views\Pages\Settings-L-icon.png" />
     <Resource Include="Views\Pages\LOGIN.png" />
     <Resource Include="Views\Pages\Logo.png" />

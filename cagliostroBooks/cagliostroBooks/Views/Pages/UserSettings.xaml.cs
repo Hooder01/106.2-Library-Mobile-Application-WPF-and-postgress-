@@ -27,20 +27,20 @@ namespace cagliostroBooks.Views.Pages
         }
 
 
-        private void RotateImage()
+        private void StartGearRotation()
         {
+            DoubleAnimation rotationAnimation = new DoubleAnimation();
+            rotationAnimation.From = 0;
+            rotationAnimation.To = 360;
+            rotationAnimation.RepeatBehavior = RepeatBehavior.Forever;
+            rotationAnimation.Duration = new Duration(TimeSpan.FromSeconds(10)); 
+
             RotateTransform rotateTransform = new RotateTransform();
+            gearImage.RenderTransform = rotateTransform;
 
-            RenderTransform = rotateTransform;
+            gearImage.RenderTransformOrigin = new Point(0.5, 0.5); 
 
-            DoubleAnimation animation = new DoubleAnimation
-            {
-                From = 0, To = 360, Duration = TimeSpan.FromSeconds(5), 
-
-                RepeatBehavior = RepeatBehavior.Forever
-            };
-
-            rotateTransform.BeginAnimation(RotateTransform.AngleProperty, animation);
+            rotateTransform.BeginAnimation(RotateTransform.AngleProperty, rotationAnimation);
         }
         // _Code behind the Rotating settings icon_ \\ (BUG!!!)
 

@@ -26,19 +26,7 @@
         <Grid
             Grid.Row="2">
             <Ellipse HorizontalAlignment="Center" Height="199" Margin="0,22,0,0" VerticalAlignment="Top" Width="506" Fill="#FF61BEF9"/>
-
-
-            <Image HorizontalAlignment="Left" Height="56" Margin="214,35,0,9" VerticalAlignment="Center" Width="69" Source="/Views/Pages/Settings-L-icon.png" RenderTransformOrigin="-0.569,0.801">
-
-                <Image.RenderTransform>
-
-                    <RotateTransform x:Name="rotateTransform" Angle="0"/>
-
-                </Image.RenderTransform>
-
-            </Image>
-            <!-- _Rotating Gear Icon (UI)_ -->
-
+            <Image HorizontalAlignment="Left" Name="gearImage" Height="66" Margin="214,34,0,0" VerticalAlignment="Top" Width="54" Source="Settings-L-icon.png" RenderTransformOrigin="0.962,0.583"/>
         </Grid>
         <!-- _Footer_ -->
 

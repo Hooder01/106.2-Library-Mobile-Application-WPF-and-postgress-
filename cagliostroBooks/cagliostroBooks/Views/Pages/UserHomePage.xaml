@@ -9,18 +9,21 @@
       Title="UserHomePage" WindowHeight="798" WindowWidth="480">
 
 
-    <Page.Resources>
 
-        <Style TargetType ="ScrollBar"></Style>
-
-    </Page.Resources>
 
     <Grid Background="White">
 
 
         <Grid.RowDefinitions>
 
-            <RowDefinition Height="100"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="30"/>
+            <!--Acts as a gap-->
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="30"/>
+            <!--Acts as a gap-->
+            <RowDefinition Height="150"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="100"/>
 
@@ -29,7 +32,7 @@
 
         <Grid
             Grid.Row="0">
-            <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Center" Width="100" Source="/Views/Pages/Logo.png" Margin="0,-6,0,0"/>
+            <Image HorizontalAlignment="Left" Height="128" VerticalAlignment="Center" Width="148" Source="/Views/Pages/Logo.png" Margin="0,10,0,12"/>
 
         </Grid>
         <!-- _Header_ -->
@@ -38,14 +41,61 @@
         <Grid
             Grid.Row="1"
             Background="LightGray">
-            <!-- (NOTE) Darker? -->
+            <Image HorizontalAlignment="Left" Height="131" Margin="40,9,0,0" VerticalAlignment="Top" Width="84" Source="b1.jpg"/>
+            <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="28,2,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="0.396,0.404" Stroke="White"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="28,2,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book01Info_Click"/>
+
+
+            <Image HorizontalAlignment="Left" Height="131" Margin="194,10,0,0" VerticalAlignment="Top" Width="84" Source="b2.jpg"/>
+            <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="180,2,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836" Stroke="White"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="180,6,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book02Info_Click" RenderTransformOrigin="-0.68,-1.455"/>
+
+
+            <Image HorizontalAlignment="Left" Height="131" Margin="348,10,0,0" VerticalAlignment="Top" Width="84" Source="b3.jpg"/>
+            <Ellipse Fill="Red" HorizontalAlignment="Left" Height="32" Margin="334,2,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="334,6,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book03Info_Click" RenderTransformOrigin="-0.68,-1.455"/>
 
         </Grid>
-        <!-- _Body_ -->
+        <!-- _BookRow1_ -->
+
 
 
         <Grid
-            Grid.Row="2">
+            Grid.Row="3"
+            Background="LightGray">
+
+            <Image HorizontalAlignment="Left" Height="130" Margin="36,10,0,0" VerticalAlignment="Top" Width="89" Source="b4.jpg"/>
+            <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="25,4,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="25,4,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book04Info_Click" RenderTransformOrigin="-0.68,-1.455"/>
+
+            <Image HorizontalAlignment="Left" Height="137" Margin="194,5,0,0" VerticalAlignment="Top" Width="89" Source="b5.png"/>
+            <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="182,4,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="182,8,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book05Info_Click" RenderTransformOrigin="-0.68,-1.455"/>
+
+            <Image HorizontalAlignment="Left" Height="134" Margin="344,8,0,0" VerticalAlignment="Top" Width="93" Source="b6.jpg"/>
+            <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="330,5,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="330,5,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book05Info_Click" RenderTransformOrigin="-0.68,-1.455"/>
+            
+        </Grid>
+        <!-- _BookRow2_ -->
+
+
+
+        <Grid
+            Grid.Row="5"
+            Background="LightGray"/>
+
+        <Image HorizontalAlignment="Left" Height="130" Margin="36,10,0,0" VerticalAlignment="Top" Width="89" Source="b7.jpg"/>
+        <Ellipse Fill="Red" HorizontalAlignment="Left" Height="32" Margin="25,4,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="25,4,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book06Info_Click" RenderTransformOrigin="-0.68,-1.455"/>
+
+
+        <!-- _BookRow3_ -->
+
+
+
+        <Grid
+            Grid.Row="8">
             <Ellipse HorizontalAlignment="Center" Height="199" Margin="0,22,0,0" VerticalAlignment="Top" Width="506" Fill="#FF61BEF9"/>
             <Image HorizontalAlignment="Left" Height="56" Margin="398,0,0,0" VerticalAlignment="Center" Width="69" Source="/Views/Pages/Settings-L-icon.png" RenderTransformOrigin="-0.569,0.801"/>
             <Button Content="Button" HorizontalAlignment="Left" Margin="398,0,0,0" VerticalAlignment="Center" Height="56" Width="56" Click="ToSettingsPage_Click" Opacity="0"/>
@@ -55,39 +105,8 @@
 
 
 
-        <ScrollViewer Grid.Row="1">
-
-            <Grid RenderTransformOrigin="0.521,0.508">
-
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="160"/>
-                    <ColumnDefinition Width="160"/>
-                    <ColumnDefinition Width="160"/>
-                    <ColumnDefinition Width="50"/>
-                    <!-- (NOTE) fancy scroll bar? -->
-
-                </Grid.ColumnDefinitions>
-                <!-- _Grid column size for books_-->
 
 
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="198"/>
-                    <RowDefinition Height="198"/>
-                    <RowDefinition Height="198"/>
-                    <RowDefinition Height="198"/>
-                    <RowDefinition Height="198"/>
-                    <RowDefinition Height="198"/>
-                    <RowDefinition Height="198"/>
-                    <RowDefinition Height="198"/>
-
-                </Grid.RowDefinitions>
-                <!-- _Grid row size for books_-->
-
-
-            </Grid>
-
-        </ScrollViewer>
-        <!-- Scoll veiw for (Grid.Row"1") aka _Body_-->
 
     </Grid>
 
