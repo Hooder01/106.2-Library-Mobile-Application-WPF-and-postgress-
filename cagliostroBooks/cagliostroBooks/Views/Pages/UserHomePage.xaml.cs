@@ -62,6 +62,24 @@ namespace cagliostroBooks.Views.Pages
         {
             MessageBox.Show("Title: RUBY Programming \n BN 04004021 \n Availability: available!");
         }
+
+
+        private void Book07Info_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Title: Nier \n BN 04004021 \n Availability: Taken!");
+        }
+
+
+        private void Book08Info_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Title: In Science \n BN 00109001 \n Availability: available!");
+        }
+
+
+        private void Book09Info_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Title: Film Lighting \n BN 10003400 \n Availability: available!");
+        }
         // _On click will give user information of novel via a messeage box (also will have a table in postSQL)_
     }
 }

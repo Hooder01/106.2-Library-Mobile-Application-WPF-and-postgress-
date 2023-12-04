@@ -74,8 +74,8 @@
 
             <Image HorizontalAlignment="Left" Height="134" Margin="344,8,0,0" VerticalAlignment="Top" Width="93" Source="b6.jpg"/>
             <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="330,5,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836"/>
-            <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="330,5,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book05Info_Click" RenderTransformOrigin="-0.68,-1.455"/>
-            
+            <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="330,5,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book06Info_Click" RenderTransformOrigin="-0.68,-1.455"/>
+
         </Grid>
         <!-- _BookRow2_ -->
 
@@ -85,10 +85,19 @@
             Grid.Row="5"
             Background="LightGray"/>
 
-        <Image HorizontalAlignment="Left" Height="130" Margin="36,10,0,0" VerticalAlignment="Top" Width="89" Source="b7.jpg"/>
-        <Ellipse Fill="Red" HorizontalAlignment="Left" Height="32" Margin="25,4,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="25,4,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book06Info_Click" RenderTransformOrigin="-0.68,-1.455"/>
+        <Image HorizontalAlignment="Left" Height="130" Margin="38,9.8,0,0" VerticalAlignment="Top" Width="89" Source="b7.jpg" RenderTransformOrigin="0.721,3.524" Grid.Row="5"/>
+        <Ellipse Fill="Red" HorizontalAlignment="Left" Height="32" Margin="25,5.8,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836" Grid.Row="5"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="25,9.8,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book07Info_Click" RenderTransformOrigin="-0.68,-1.455" Grid.Row="5"/>
 
+
+        <Image HorizontalAlignment="Left" Height="130" Margin="194,10,0,0" VerticalAlignment="Top" Width="89" Source="b8.png" RenderTransformOrigin="0.721,3.524" Grid.Row="5"/>
+        <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="179,6,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836" Grid.Row="5"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="179,10,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book08Info_Click" RenderTransformOrigin="-0.68,-1.455" Grid.Row="5"/>
+
+
+        <Image HorizontalAlignment="Left" Height="130" Margin="343,10,0,0" VerticalAlignment="Top" Width="98" Source="/Resources/Book_covers/b9.png" RenderTransformOrigin="0.721,3.524" Grid.Row="5"/>
+        <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="332,6,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836" Grid.Row="5"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="332,10,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book09Info_Click" RenderTransformOrigin="-0.68,-1.455" Grid.Row="5"/>
 
         <!-- _BookRow3_ -->
 
@@ -97,8 +106,10 @@
         <Grid
             Grid.Row="8">
             <Ellipse HorizontalAlignment="Center" Height="199" Margin="0,22,0,0" VerticalAlignment="Top" Width="506" Fill="#FF61BEF9"/>
-            <Image HorizontalAlignment="Left" Height="56" Margin="398,0,0,0" VerticalAlignment="Center" Width="69" Source="/Views/Pages/Settings-L-icon.png" RenderTransformOrigin="-0.569,0.801"/>
+            <Image HorizontalAlignment="Left" Height="56" Margin="398,22,0,22" VerticalAlignment="Center" Width="56" Source="/Views/Pages/Settings-L-icon.png" RenderTransformOrigin="-0.569,0.801"/>
             <Button Content="Button" HorizontalAlignment="Left" Margin="398,0,0,0" VerticalAlignment="Center" Height="56" Width="56" Click="ToSettingsPage_Click" Opacity="0"/>
+
+            <Image HorizontalAlignment="Left" Height="68" Margin="209,0,0,0" VerticalAlignment="Top" Width="68" Source="/Resources/TypeWriter.png" RenderTransformOrigin="0.557,0.512"/>
 
         </Grid>
         <!-- _Footer_ -->
