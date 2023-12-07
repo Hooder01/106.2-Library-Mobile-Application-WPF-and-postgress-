@@ -95,7 +95,7 @@
         <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="179,10,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book08Info_Click" RenderTransformOrigin="-0.68,-1.455" Grid.Row="5"/>
 
 
-        <Image HorizontalAlignment="Left" Height="130" Margin="343,10,0,0" VerticalAlignment="Top" Width="98" Source="/Resources/Book_covers/b9.png" RenderTransformOrigin="0.721,3.524" Grid.Row="5"/>
+        <Image HorizontalAlignment="Left" Height="130" Margin="343,10,0,0" VerticalAlignment="Top" Width="98" Source="b9.png" RenderTransformOrigin="0.721,3.524" Grid.Row="5"/>
         <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="332,6,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836" Grid.Row="5"/>
         <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="332,10,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book09Info_Click" RenderTransformOrigin="-0.68,-1.455" Grid.Row="5"/>
 
@@ -109,7 +109,7 @@
             <Image HorizontalAlignment="Left" Height="56" Margin="398,22,0,22" VerticalAlignment="Center" Width="56" Source="/Views/Pages/Settings-L-icon.png" RenderTransformOrigin="-0.569,0.801"/>
             <Button Content="Button" HorizontalAlignment="Left" Margin="398,0,0,0" VerticalAlignment="Center" Height="56" Width="56" Click="ToSettingsPage_Click" Opacity="0"/>
 
-            <Image HorizontalAlignment="Left" Height="68" Margin="209,0,0,0" VerticalAlignment="Top" Width="68" Source="/Resources/TypeWriter.png" RenderTransformOrigin="0.557,0.512"/>
+            <Image HorizontalAlignment="Left" Height="58" Margin="215,10,0,0" VerticalAlignment="Top" Width="59" Source="TypeWriter.png" RenderTransformOrigin="0.859,0.867"/>
 
         </Grid>
         <!-- _Footer_ -->

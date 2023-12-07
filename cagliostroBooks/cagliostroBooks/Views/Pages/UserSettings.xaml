@@ -22,12 +22,32 @@
         </Grid.RowDefinitions>
 
 
+        <Grid
+            Grid.Row="0">
+            <Image HorizontalAlignment="Left" Height="62" VerticalAlignment="Top" Width="68" Source="BackArrow.png" Margin="2,21,0,0"/>
+            <Image HorizontalAlignment="Left" Height="82" Margin="396,7,-3,0" VerticalAlignment="Top" Width="87" Source="HelpDeskIcon.png"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="0,32,0,0" VerticalAlignment="Top" Width="64" Height="43" Opacity="0" Click="BackToHome_OnClick"/>
+
+        </Grid>
+        <!-- _Header_ -->
+
+
+        <Grid
+            Grid.Row="1">
+
+            <Ellipse Fill="White" HorizontalAlignment="Left" Height="438" Margin="28,112,0,0" Stroke="Black" VerticalAlignment="Top" Width="424"/>
+
+        </Grid>
+        <!-- _Body_ -->
+
 
         <Grid
             Grid.Row="2">
             <Ellipse HorizontalAlignment="Center" Height="199" Margin="0,22,0,0" VerticalAlignment="Top" Width="506" Fill="#FF61BEF9"/>
-            <Image HorizontalAlignment="Left" Name="gearImage" Height="66" Margin="214,34,0,0" VerticalAlignment="Top" Width="54" Source="Settings-L-icon.png" RenderTransformOrigin="0.962,0.583"/>
+            <Image HorizontalAlignment="Left" Height="60" Margin="213,10,0,0" VerticalAlignment="Top" Width="59" Source="Settings-L-icon.png" RenderTransformOrigin="0.742,0.52"/>
+
         </Grid>
+
         <!-- _Footer_ -->
 
 

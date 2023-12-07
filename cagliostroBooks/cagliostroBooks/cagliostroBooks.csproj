@@ -129,6 +129,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Logo.png" />
+    <Resource Include="Views\Pages\HelpDeskIcon.png" />
+    <Resource Include="Views\Pages\BackArrow.png" />
+    <Resource Include="Views\Pages\b9.png" />
+    <Resource Include="Views\Pages\TypeWriter.png" />
     <Resource Include="Views\Pages\b8.png" />
     <Resource Include="Views\Pages\b6.jpg" />
     <Resource Include="Views\Pages\b7.jpg" />

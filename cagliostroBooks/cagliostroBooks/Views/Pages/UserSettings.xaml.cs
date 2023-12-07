@@ -26,7 +26,12 @@ namespace cagliostroBooks.Views.Pages
             InitializeComponent();
         }
 
-
+        private void BackToHome_OnClick(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            NavigationService.Navigate(new Uri(@"Views\Pages\UserHomePage.xaml", UriKind.Relative));
+        } 
+        // _Sends user back to homepage_
         private void StartGearRotation()
         {
             DoubleAnimation rotationAnimation = new DoubleAnimation();
@@ -36,9 +41,9 @@ namespace cagliostroBooks.Views.Pages
             rotationAnimation.Duration = new Duration(TimeSpan.FromSeconds(10)); 
 
             RotateTransform rotateTransform = new RotateTransform();
-            gearImage.RenderTransform = rotateTransform;
+            //gearImage.RenderTransform = rotateTransform;
 
-            gearImage.RenderTransformOrigin = new Point(0.5, 0.5); 
+            //gearImage.RenderTransformOrigin = new Point(0.5, 0.5); 
 
             rotateTransform.BeginAnimation(RotateTransform.AngleProperty, rotationAnimation);
         }

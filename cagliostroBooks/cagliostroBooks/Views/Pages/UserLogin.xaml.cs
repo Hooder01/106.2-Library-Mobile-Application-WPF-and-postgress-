@@ -29,11 +29,7 @@ namespace cagliostroBooks.Views.Pages
 
 
 
-        private void ToUserHomePage_Click(object sender, RoutedEventArgs e)
-        {
-            Button b = (Button)sender;
-            NavigationService.Navigate(new Uri(@"Views\Pages\UserHomePage.xaml", UriKind.Relative));
-        }
+       
 
         public UserLogin()
         {
