@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.SqlClient;
 
 namespace cagliostroBooks.Views.Pages
 {
@@ -21,20 +22,24 @@ namespace cagliostroBooks.Views.Pages
     public partial class UserLogin : Page
     {
 
-        private void ToAdminLoginPage_Click(object sender, RoutedEventArgs e)
-        {
-            Button b = (Button)sender;
-            NavigationService.Navigate(new Uri(@"Views\Pages\AdminLogin.xaml", UriKind.Relative));
-        }
-
-
-
        
 
         public UserLogin()
         {
             InitializeComponent();
 
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            NavigationService.Navigate(new Uri(@"Views\Pages\UserHomePage.xaml", UriKind.Relative));
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            NavigationService.Navigate(new Uri(@"Views\Pages\AdminLogin.xaml", UriKind.Relative));
         }
     }
 }

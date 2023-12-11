@@ -12,7 +12,7 @@
         <Image HorizontalAlignment="Left" Height="325" Margin="64,71,0,0" VerticalAlignment="Top" Width="349" Source="/Views/Pages/Logo.png" RenderTransformOrigin="0.528,0.511"/>
         <Image HorizontalAlignment="Left" Height="64" Margin="265,656,0,0" VerticalAlignment="Top" Width="172" Source="/Resources/LOGIN.png"/>
         <Image HorizontalAlignment="Left" Height="53" Margin="53,656,0,0" VerticalAlignment="Top" Width="166" Source="/Views/Pages/LOGIN1.png"/>
-        <Button Content="AdminLogin" HorizontalAlignment="Left" Margin="53,656,0,0" VerticalAlignment="Top" Height="39" Width="166" Click="ToAdminLoginPage_Click" Opacity="0"/>
+        <Button Content="AdminLogin" HorizontalAlignment="Left" Margin="53,655,0,0" VerticalAlignment="Top" Height="39" Width="166" Opacity="0" Click="Button_Click_1"/>
        
         <Label Content="LOGIN" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="36" Margin="187,396,0,0" FontFamily="Calibri Light"/>
         <Label Content="UserID" HorizontalAlignment="Left" Margin="87,464,0,0" VerticalAlignment="Top" Width="74" Height="35" FontSize="20"/>
@@ -20,7 +20,7 @@
         <Label Content="Password" HorizontalAlignment="Left" Margin="87,536,0,0" VerticalAlignment="Top" Width="91" Height="35" FontSize="20" RenderTransformOrigin="0.557,3.989"/>
         <PasswordBox HorizontalAlignment="Left" Height="32" Margin="53,571,0,0"  VerticalAlignment="Top" Width="384" Background="Gainsboro" FontSize="20"/>
 
-        <Button Content="UserLogin" HorizontalAlignment="Left" Margin="265,655,0,0" VerticalAlignment="Top" Height="40" Width="172" Opacity="0"/>
+        <Button Content="UserLogin" HorizontalAlignment="Left" Margin="265,655,0,0" VerticalAlignment="Top" Height="40" Width="172" Opacity="0" Click="Button_Click"/>
 
     </Grid>
 </Page>
