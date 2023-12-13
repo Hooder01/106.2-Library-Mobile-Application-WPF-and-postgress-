@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Yoobee (April 2023 backup)\Year 2\Term 4\Aessements\106.2\Library application (106.2)\106.2-Library-Mobile-Application-WPF-and-postgress-\cagliostroBooks\cagliostroBooks\App.xaml
-6-1089083500
+8-1202636448
 11691549855
-11972147753
+13121368041
 13-1505183044
-MainWindow.xaml;Views\Pages\AdminLogin.xaml;Views\Pages\Categories.xaml;Views\Pages\UserHomePage.xaml;Views\Pages\UserLogin.xaml;Views\Pages\UserSettings.xaml;
+MainWindow.xaml;Views\Pages\AdminLogin.xaml;Views\Pages\Categories.xaml;Views\Pages\UserHomePage.xaml;Views\Pages\UserHomePageDM.xaml;Views\Pages\UserLogin.xaml;Views\Pages\UserSettings.xaml;Views\Pages\UserSettingsDM.xaml;
 
 True
 

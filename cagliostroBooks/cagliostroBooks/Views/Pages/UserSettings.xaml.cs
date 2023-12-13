@@ -32,6 +32,16 @@ namespace cagliostroBooks.Views.Pages
             NavigationService.Navigate(new Uri(@"Views\Pages\UserHomePage.xaml", UriKind.Relative));
         } 
         // _Sends user back to homepage_
+
+
+        private void ToDarkMode_Button(object sender, RoutedEventArgs e)
+        {
+            Button b = (Button)sender;
+            NavigationService.Navigate(new Uri(@"Views\Pages\UserSettingsDM.xaml", UriKind.Relative));
+        }
+        // _Sends user to DarkMode version of settings page_
+
+
         private void StartGearRotation()
         {
             DoubleAnimation rotationAnimation = new DoubleAnimation();

@@ -64,11 +64,17 @@
     <Compile Include="Views\Pages\UserHomePage.xaml.cs">
       <DependentUpon>UserHomePage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Pages\UserHomePageDM.xaml.cs">
+      <DependentUpon>UserHomePageDM.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Pages\UserLogin.xaml.cs">
       <DependentUpon>UserLogin.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Pages\UserSettings.xaml.cs">
       <DependentUpon>UserSettings.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Pages\UserSettingsDM.xaml.cs">
+      <DependentUpon>UserSettingsDM.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -94,11 +100,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Views\Pages\UserHomePageDM.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Pages\UserLogin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Pages\UserSettings.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Pages\UserSettingsDM.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -136,6 +150,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Resources\Logo.png" />
+    <Resource Include="Views\Pages\ONBUTTON.png" />
+    <Resource Include="Views\Pages\OFFBUTTON.png" />
+    <Resource Include="Views\Pages\PFP.png" />
     <Resource Include="Views\Pages\HelpDeskIcon.png" />
     <Resource Include="Views\Pages\BackArrow.png" />
     <Resource Include="Views\Pages\b9.png" />

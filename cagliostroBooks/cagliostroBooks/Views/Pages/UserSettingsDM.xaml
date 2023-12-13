@@ -1,4 +1,4 @@
-﻿<Page x:Class="cagliostroBooks.Views.Pages.UserSettings"
+﻿<Page x:Class="cagliostroBooks.Views.Pages.UserSettingsDM"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -6,9 +6,7 @@
       xmlns:local="clr-namespace:cagliostroBooks.Views.Pages"
       mc:Ignorable="d" 
       d:DesignHeight="798" d:DesignWidth="480"
-      Title="UserSettings" Background="White" WindowHeight="798" WindowWidth="480">
-
-
+      Title="UserSettingsDM" Background="DarkSlateGray" WindowHeight="798" WindowWidth="480">
 
     <Grid>
 
@@ -26,7 +24,7 @@
             Grid.Row="0">
             <Image HorizontalAlignment="Left" Height="62" VerticalAlignment="Top" Width="68" Source="BackArrow.png" Margin="2,21,0,0"/>
             <Image HorizontalAlignment="Left" Height="82" Margin="396,7,-3,0" VerticalAlignment="Top" Width="87" Source="HelpDeskIcon.png"/>
-            <Button Content="Button" HorizontalAlignment="Left" Margin="0,32,0,0" VerticalAlignment="Top" Width="64" Height="43" Opacity="0" Click="BackToHome_OnClick"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="0,32,0,0" VerticalAlignment="Top" Width="64" Height="43" Opacity="0" Click="ToHomePageDM_Click"/>
 
         </Grid>
         <!-- _Header_ -->
@@ -35,11 +33,11 @@
         <Grid
             Grid.Row="1">
 
-            <Ellipse Fill="White" HorizontalAlignment="Left" Height="438" Margin="28,112,0,0" Stroke="Black" VerticalAlignment="Top" Width="424"/>
+            <Ellipse Fill="DarkSlateGray" HorizontalAlignment="Left" Height="438" Margin="28,112,0,0" Stroke="Black" VerticalAlignment="Top" Width="424"/>
             <Image HorizontalAlignment="Left" Height="100" Margin="190,33,0,0" VerticalAlignment="Top" Width="100" Source="PFP.png"/>
-            <Image HorizontalAlignment="Left" Height="58" Margin="94,282,0,0" VerticalAlignment="Top" Width="100" Source="OFFBUTTON.png"/>
+            <Image HorizontalAlignment="Left" Height="65" Margin="89,292,0,0" VerticalAlignment="Top" Width="115" Source="ONBUTTON.png" RenderTransformOrigin="0.556,2.024"/>
             <Label Content="Dark Mode" HorizontalAlignment="Left" Margin="218,290,0,0" VerticalAlignment="Top" Height="45" Width="160" FontSize="29" FontFamily="Calibri Light"/>
-            <Button Content="Button" HorizontalAlignment="Left" Height="46" Margin="105,292,0,0" VerticalAlignment="Top" Width="84" Opacity="0" Click="ToDarkMode_Button"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="46" Margin="105,295,0,0" VerticalAlignment="Top" Width="84" Opacity="0" Click="ToLightMode_Button"/>
 
 
         </Grid>
@@ -48,7 +46,7 @@
 
         <Grid
             Grid.Row="2">
-            <Ellipse HorizontalAlignment="Center" Height="199" Margin="0,22,0,0" VerticalAlignment="Top" Width="506" Fill="#FF61BEF9"/>
+            <Ellipse HorizontalAlignment="Center" Height="199" Margin="0,22,0,0" VerticalAlignment="Top" Width="506" Fill="DarkBlue"/>
             <Image HorizontalAlignment="Left" Height="60" Margin="213,10,0,0" VerticalAlignment="Top" Width="59" Source="Settings-L-icon.png" RenderTransformOrigin="0.742,0.52"/>
 
         </Grid>
@@ -59,8 +57,6 @@
 
 
     </Grid>
-
-
 
 
 </Page>

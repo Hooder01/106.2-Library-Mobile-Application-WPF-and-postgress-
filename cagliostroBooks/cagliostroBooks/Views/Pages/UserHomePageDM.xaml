@@ -1,0 +1,125 @@
+﻿<Page x:Class="cagliostroBooks.Views.Pages.UserHomePageDM"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:cagliostroBooks.Views.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="798" d:DesignWidth="480"
+      Title="UserHomePageDM">
+
+
+    <Grid Background="DarkSlateGray">
+
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="30"/>
+            <!--Acts as a gap-->
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="30"/>
+            <!--Acts as a gap-->
+            <RowDefinition Height="150"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+
+        </Grid.RowDefinitions>
+
+
+        <Grid
+            Grid.Row="0">
+            <Image HorizontalAlignment="Left" Height="128" VerticalAlignment="Center" Width="148" Source="/Views/Pages/Logo.png" Margin="0,10,0,12"/>
+
+        </Grid>
+        <!-- _Header_ -->
+
+
+        <Grid
+            Grid.Row="1"
+            Background="#FF4E4E4E">
+            <Image HorizontalAlignment="Left" Height="131" Margin="40,9,0,0" VerticalAlignment="Top" Width="84" Source="b1.jpg"/>
+            <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="28,2,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="0.396,0.404" Stroke="White"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="28,2,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book01Info_Click"/>
+
+
+            <Image HorizontalAlignment="Left" Height="131" Margin="194,10,0,0" VerticalAlignment="Top" Width="84" Source="b2.jpg"/>
+            <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="180,2,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836" Stroke="White"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="180,6,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book02Info_Click" RenderTransformOrigin="-0.68,-1.455"/>
+
+
+            <Image HorizontalAlignment="Left" Height="131" Margin="348,10,0,0" VerticalAlignment="Top" Width="84" Source="b3.jpg"/>
+            <Ellipse Fill="Red" HorizontalAlignment="Left" Height="32" Margin="334,2,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="334,6,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book03Info_Click" RenderTransformOrigin="-0.68,-1.455"/>
+
+        </Grid>
+        <!-- _BookRow1_ -->
+
+
+
+        <Grid
+            Grid.Row="3"
+            Background="#FF4F4F4F">
+
+            <Image HorizontalAlignment="Left" Height="130" Margin="36,10,0,0" VerticalAlignment="Top" Width="89" Source="b4.jpg"/>
+            <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="25,4,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="25,4,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book04Info_Click" RenderTransformOrigin="-0.68,-1.455"/>
+
+            <Image HorizontalAlignment="Left" Height="137" Margin="194,5,0,0" VerticalAlignment="Top" Width="89" Source="b5.png"/>
+            <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="182,4,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="182,8,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book05Info_Click" RenderTransformOrigin="-0.68,-1.455"/>
+
+            <Image HorizontalAlignment="Left" Height="134" Margin="344,8,0,0" VerticalAlignment="Top" Width="93" Source="b6.jpg"/>
+            <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="330,5,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836"/>
+            <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="330,5,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book06Info_Click" RenderTransformOrigin="-0.68,-1.455"/>
+
+        </Grid>
+        <!-- _BookRow2_ -->
+
+
+
+        <Grid
+            Grid.Row="5"
+            Background="#FF545454"/>
+
+        <Image HorizontalAlignment="Left" Height="130" Margin="38,9.8,0,0" VerticalAlignment="Top" Width="89" Source="b7.jpg" RenderTransformOrigin="0.721,3.524" Grid.Row="5"/>
+        <Ellipse Fill="Red" HorizontalAlignment="Left" Height="32" Margin="25,5.8,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836" Grid.Row="5"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="25,9.8,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book07Info_Click" RenderTransformOrigin="-0.68,-1.455" Grid.Row="5"/>
+
+
+        <Image HorizontalAlignment="Left" Height="130" Margin="194,10,0,0" VerticalAlignment="Top" Width="89" Source="b8.png" RenderTransformOrigin="0.721,3.524" Grid.Row="5"/>
+        <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="179,6,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836" Grid.Row="5"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="179,10,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book08Info_Click" RenderTransformOrigin="-0.68,-1.455" Grid.Row="5"/>
+
+
+        <Image HorizontalAlignment="Left" Height="130" Margin="343,10,0,0" VerticalAlignment="Top" Width="98" Source="b9.png" RenderTransformOrigin="0.721,3.524" Grid.Row="5"/>
+        <Ellipse Fill="Lime" HorizontalAlignment="Left" Height="32" Margin="332,6,0,0" VerticalAlignment="Top" Width="32" RenderTransformOrigin="2.797,0.836" Grid.Row="5"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="28" Margin="332,10,0,0" VerticalAlignment="Top" Width="32" Opacity="0" Click="Book09Info_Click" RenderTransformOrigin="-0.68,-1.455" Grid.Row="5"/>
+
+        <!-- _BookRow3_ -->
+
+
+
+        <Grid
+            Grid.Row="8">
+            <Ellipse HorizontalAlignment="Center" Height="199" Margin="0,22,0,0" VerticalAlignment="Top" Width="506" Fill="DarkBlue"/>
+            <Image HorizontalAlignment="Left" Height="56" Margin="398,22,0,22" VerticalAlignment="Center" Width="56" Source="/Views/Pages/Settings-L-icon.png" RenderTransformOrigin="-0.569,0.801"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="398,0,0,0" VerticalAlignment="Center" Height="56" Width="56" Click="ToSettingsPageDM_Click" Opacity="0"/>
+
+            <Image HorizontalAlignment="Left" Height="58" Margin="215,10,0,0" VerticalAlignment="Top" Width="59" Source="TypeWriter.png" RenderTransformOrigin="0.859,0.867"/>
+
+        </Grid>
+        <!-- _Footer_ -->
+
+
+
+
+
+
+    </Grid>
+
+
+
+
+</Page>
